@@ -1,4 +1,4 @@
-notification
+Notification badge
 ============
 
-Topcoat notification
+Notification base component
