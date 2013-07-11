@@ -1,4 +1,4 @@
-notification-base
-=================
+notification
+============
 
-notification-base component
+Topcoat notification
