@@ -1,8 +1,7 @@
 {
-  "name": "notification-base",
+  "name": "topcoat-notification-base",
   "version": "0.0.0",
   "description": "Topcoat notification base",
-  "main": "notification-base.css",
   "directories": {
     "test": "test",
     "lib": "src",
