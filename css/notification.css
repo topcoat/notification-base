@@ -15,20 +15,22 @@
 * limitations under the License.
 *
 */
-
-/*global require, describe, it*/
-
-'use strict';
-
-var grunt = require('grunt'),
-    assert = require('assert');
-
-describe('notification-base', function() {
-
-    it('should create expected css file', function() {
-        var actual = grunt.file.read('css/notification.css');
-        var expected = grunt.file.read('test/expected/notification.css');
-        assert.equal(actual, expected, 'should generate correct css');
-    });
-
-});
+.notification {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  background-clip: padding-box;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  border: none;
+  cursor: default;
+  user-select: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-decoration: none;
+}
