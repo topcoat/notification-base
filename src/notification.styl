@@ -15,20 +15,12 @@
 * limitations under the License.
 *
 */
+@import utils
 
-/*global require, describe, it*/
-
-'use strict';
-
-var grunt = require('grunt'),
-    assert = require('assert');
-
-describe('notification-base', function() {
-
-    it('should create expected css file', function() {
-        var actual = grunt.file.read('css/notification.css');
-        var expected = grunt.file.read('test/expected/notification.css');
-        assert.equal(actual, expected, 'should generate correct css');
-    });
-
-});
+.notification
+  inline-block()
+  reset-box-model()
+  reset-base()
+  reset-cursor()
+  ellipsis()
+  text-decoration: none;
