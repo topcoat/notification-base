@@ -2,6 +2,8 @@
   "name": "topcoat-notification-base",
   "version": "0.0.0",
   "description": "Topcoat notification base",
+  "main": "index.html",
+  "style": "src/button.css",
   "directories": {
     "test": "test",
     "lib": "src",
