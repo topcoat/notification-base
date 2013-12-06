@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Topcoat notification base",
   "main": "index.html",
-  "style": "src/button.css",
+  "style": "src/notification.css",
   "directories": {
     "test": "test",
     "lib": "src",
