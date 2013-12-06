@@ -15,12 +15,8 @@
 * limitations under the License.
 *
 */
-@import utils
+@import "./src/notification.css";
 
-.notification
-  inline-block()
-  reset-box-model()
-  reset-base()
-  reset-cursor()
-  ellipsis()
-  text-decoration: none;
+.notification {
+  extend: %notification;
+}
